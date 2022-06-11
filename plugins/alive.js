@@ -32,8 +32,8 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        displayText: 'Telegram',
+        url: 'https://t.me/+4an30tzPwK0yNjA1'
     }
 }, {
   urlButton: {
