@@ -108,8 +108,8 @@ var {
     const templateButtons = [{
             index: 1,
             urlButton: {
-                displayText: 'WIKI',
-                url: 'https://github.com/souravkl11/raganork-md/wiki/Docs'
+                displayText: 'Telegram',
+                url: 'https://t.me/+4an30tzPwK0yNjA1'
             }
         },
         {
