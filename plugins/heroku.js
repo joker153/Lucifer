@@ -210,8 +210,8 @@ Module({
 }, (async (message, match) => {
     var buttons = [{
         urlButton: {
-            displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            displayText: 'Telegram',
+            url: 'https://t.me/+4an30tzPwK0yNjA1'
         }
     },
     {
@@ -235,8 +235,8 @@ Module({
 }, (async (message, match) => {
     var buttons = [{
         urlButton: {
-            displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            displayText: 'Telegram',
+            url: 'https://t.me/+4an30tzPwK0yNjA1'
         }
     },
     {
@@ -266,8 +266,8 @@ Module({
     });
     var buttons = [{
         urlButton: {
-            displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            displayText: 'Telegram',
+            url: 'https://t.me/+4an30tzPwK0yNjA1'
         }
     },
     {
