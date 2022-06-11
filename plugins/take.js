@@ -50,16 +50,16 @@ Module({
             author: match[1].includes(";")?match[1].split(";")[1]:"",
             packname: match[1].includes(";")?match[1].split(";")[0]:match[1],
             categories: STICKER_DATA.split(";")[2] || "😂",
-            android: "https://github.com/souravkl11/Raganork-md/",
-            ios: "https://github.com/souravkl11/Raganork-md/"
+            android: "https://github.com/joker153/Lucifer/",
+            ios: "https://github.com/joker153/Lucifer/"
         } }
         else {
             var exif = {
                 author: STICKER_DATA.split(";")[1] || "",
                 packname: STICKER_DATA.split(";")[0] || "",
                 categories: STICKER_DATA.split(";")[2] || "😂",
-                android: "https://github.com/souravkl11/Raganork-md/",
-                ios: "https://github.com/souravkl11/Raganork-md/"
+                android: "https://github.com/joker153/Lucifer/",
+                ios: "https://github.com/joker153/Lucifer/"
             }
         }
         return await m.sendReply(fs.readFileSync(await addExif(q,exif)),'sticker')
